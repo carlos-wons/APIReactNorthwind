@@ -1,0 +1,161 @@
+﻿@font-face {
+  font-family: Euclid A;
+  src: url("../Fonts/euclid-circular-a-cufonfonts/Euclid\ Circular\ A\ Regular.ttf"),
+    url("../Fonts/euclid-circular-a-cufonfonts/Euclid\ Circular\ A\ Medium.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Euclid A", sans-serif;
+}
+
+body {
+  background-color: #011931;
+  color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255 255 255);
+}
+
+.navbar-brand {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 2rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.navbar-toggler {
+  color: #0055ff !important;
+  border-color: #0055ff !important;
+}
+
+.startView {
+  background-image: url("../Images/test5.svg");
+  background-size: cover;
+  background-position: center;
+  background-color: #011931;
+  overflow: visible;
+}
+
+.btn-primary {
+  background-color: #0055ff;
+  color: #fff;
+  border-color: #0055ff;
+}
+
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-color: #0044cc;
+  color: #fff;
+  border-color: #0044cc;
+}
+
+.btn-outline-primary {
+  color: #0055ff;
+  border-color: #0055ff;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary.active,
+.open .dropdown-toggle.btn-outline-primary {
+  background-color: #0044cc;
+  color: #fff;
+  border-color: #0044cc;
+}
+
+.caracteristicas-fondo {
+  background-image: url("../Images/pickawood-6tAIO3pxde4-unsplash.jpg");
+  background-position: bottom;
+  background-size: 50%;
+}
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+.flex-equal > * {
+  flex: 1;
+}
+
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+  .navbar-brand.abs {
+    position: absolute;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn-primary {
+    background-color: #0044cc;
+    color: #fff;
+    border-color: #0044cc;
+  }
+  
+  .btn-primary:hover,
+  .btn-primary:focus,
+  .btn-primary:active,
+  .btn-primary.active,
+  .open .dropdown-toggle.btn-primary {
+    background-color: #00308F;
+    color: #fff;
+    border-color: #00308F;
+  }
+  
+  .btn-outline-primary {
+    color: #0044cc;
+    border-color: #0044cc;
+  }
+  
+  .btn-outline-primary:hover,
+  .btn-outline-primary:focus,
+  .btn-outline-primary:active,
+  .btn-outline-primary.active,
+  .open .dropdown-toggle.btn-outline-primary {
+    background-color: #00308F;
+    color: #fff;
+    border-color: #00308F;
+  }
+}

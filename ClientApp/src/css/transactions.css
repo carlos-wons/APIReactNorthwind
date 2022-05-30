@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Euclid A", sans-serif;
+}
+
+@font-face {
+    font-family: Euclid A;
+    src: url("../Fonts/euclid-circular-a-cufonfonts/Euclid\ Circular\ A\ Regular.ttf"),
+        url("../Fonts/euclid-circular-a-cufonfonts/Euclid\ Circular\ A\ Medium.ttf");
+}
+
+body {
+    background-color: #0055FF;
+}
+
+.sidebar-container{
+    min-height: 100vh;
+}
+
+.sidebar-color{
+    background-color: #011931;
+    color: #ffffff;
+}
+
+.logo{
+    padding: .875rem 1.25rem;
+}
+
+.menu{
+    width: 18rem;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #011931!important;
+    background-color: #f0f0f0;
+}
+
+.menu .selected{
+    color: #011931!important;
+    background-color: #ffffff;
+}
+
+.menu .selected:hover{
+    color: #011931!important;
+    background-color: #f0f0f0;
+}
+
+.btn-search{
+    right: .5rem;
+}
+
+.avatar{
+    max-width: 35px;
+}
+
+.content{
+    overflow-y: auto;
+    height: 100vh;
+    padding-bottom: 5rem;
+}
